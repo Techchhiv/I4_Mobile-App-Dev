@@ -30,9 +30,9 @@ class FoodsPage extends StatefulWidget {
 
 class _FoodsPageState extends State<FoodsPage> {
   int _selectedItem = 1;
-  bool _selectedValue1 = false;
-  bool _selectedValue2 = false;
-  bool _selectedValue3 = false;
+  final bool _selectedValue1 = false;
+  final bool _selectedValue2 = false;
+  final bool _selectedValue3 = false;
 
   @override
   Widget build(BuildContext context) {

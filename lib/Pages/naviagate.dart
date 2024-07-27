@@ -19,7 +19,7 @@ class Navigate extends StatelessWidget {
       routes: {
         '/login': (context) => const Login(),
       },
-      home: NavigatePage(),
+      home: const NavigatePage(),
     );
   }
 }
